@@ -1,0 +1,24 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment variables (if added later, e.g. form backend keys)
+.env
+.env.local
+
+# Dependency directories (in case tooling is added later)
+node_modules/
+
+# Build output (in case a build step is added later)
+dist/
+build/
