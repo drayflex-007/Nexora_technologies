@@ -49,6 +49,7 @@
 /* ---------- Reset ---------- */
 *, *::before, *::after { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+section[id], #contactForm { scroll-margin-top: 84px; }
 body {
   margin: 0;
   background: var(--bg);
