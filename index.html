@@ -2181,17 +2181,22 @@
     */
 
     const contactForm =
-      document.getElementById("contactForm");
+  document.getElementById("contactForm");
 
-    const successMsg =
-      document.getElementById("successMsg");
+contactForm.addEventListener(
+  "submit",
+  function (event) {
 
+    if (!contactForm.checkValidity()) {
 
-    contactForm.addEventListener(
-      "submit",
-      function (event) {
+      event.preventDefault();
 
-        event.preventDefault();
+      contactForm.reportValidity();
+
+    }
+
+  }
+);
 
 
         /*
