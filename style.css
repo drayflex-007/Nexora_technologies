@@ -325,7 +325,9 @@ button {
 
 .btn-primary {
   background: var(--gold-bright);
-  color: var(--black);
+  color: #000000;
+  font-weight: 900;
+  text-shadow: none;
 
   box-shadow:
     0 10px 30px rgba(212, 175, 55, 0.18);
@@ -1462,7 +1464,7 @@ button {
   }
 
 
-  .hero-actions .btn {
+  .hero-actions .btn primary
     width: 100%;
   }
 
